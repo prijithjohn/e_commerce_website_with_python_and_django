@@ -101,13 +101,12 @@ RAZORPAY_KEY_SECRET = 'your_test_key_secret'
 ## 👨‍💻 Project Contributors
 
 Prijith – Final Year CSE Student
+
 tutorejose-Stanley – Project Guide and Mentor
 
 ---
 
-💡 Feel free to fork, contribute, or customize this project for your own learning and development!
-
----
+💡 Feel free to fork, contribute, or customize this project for your own learning and development!  
 
 Let me know if you want help generating a `requirements.txt` or adding a clickable demo section with deployment tips.
 
