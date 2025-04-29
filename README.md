@@ -77,4 +77,40 @@ RAZORPAY_KEY_SECRET = 'your_test_key_secret'
 ---
 
 ## 📸 Screenshots
+
+1. **Home page**
 ![Screenshot 2025-04-21 202232](https://github.com/user-attachments/assets/b0ca3884-46db-4907-a291-5269c3a97b63)
+
+2. **Registration page**
+![Screenshot 2025-04-21 202301](https://github.com/user-attachments/assets/cbf8d236-af8d-4283-9f41-b2e33d349871)
+
+3. **Login page**
+![Screenshot 2025-04-21 202327](https://github.com/user-attachments/assets/302eb5ae-b05c-46ba-aca5-f5f432894ac9)
+
+4. **Collection page**
+![Screenshot 2025-04-21 202358](https://github.com/user-attachments/assets/71d10313-c05f-4413-be5f-ea77885dbf58)
+
+5. **Cart page**
+![Screenshot 2025-04-21 202439](https://github.com/user-attachments/assets/f11c6c66-2a4a-4531-b996-2444201e9f73)
+
+6. **Favourite page**
+![Screenshot 2025-04-21 202459](https://github.com/user-attachments/assets/9e45cdde-4037-4b6c-a6c9-2d2a12a1704c)
+
+---
+
+## 👨‍💻 Project Contributors
+
+Prijith – Final Year CSE Student
+tutorejose-Stanley – Project Guide and Mentor
+
+---
+
+💡 Feel free to fork, contribute, or customize this project for your own learning and development!
+
+---
+
+Let me know if you want help generating a `requirements.txt` or adding a clickable demo section with deployment tips.
+
+
+
+
