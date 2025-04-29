@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'joes_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_joes',
+        'NAME': 'trivian',
         'HOST':'localhost',
         'USER':'root',
-        'PASSWORD':'root',
-        'PORT':'3306'
+        'PASSWORD':'Prijith@2004',
+        'PORT':'3307'
     }
 }
 
@@ -134,3 +134,7 @@ STATICFILES_DIRS=[
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Razorpay API Keys
+RAZORPAY_KEY_ID = 'rzp_test_yourkeyhere'
+RAZORPAY_KEY_SECRET = 'yoursecretkeyhere'

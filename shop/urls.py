@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
-
+from .views import checkout_view
+from .views import payment_success_view
 urlpatterns= [
     path('',views.home,name="home"),
     path('register',views.register,name="register"),
@@ -15,4 +16,7 @@ urlpatterns= [
     path('collections/<str:name>',views.collectionsview,name="collections"),
     path('collections/<str:cname>/<str:pname>',views.product_details,name="product_details"),
     path('addtocart',views.add_to_cart,name="addtocart"),
+    path('checkout/',checkout_view, name='checkout'),
+    path('payment-success/', payment_success_view, name='payment_success'),
+   
 ]

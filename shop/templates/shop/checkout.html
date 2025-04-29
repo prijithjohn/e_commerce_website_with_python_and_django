@@ -1,0 +1,16 @@
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    var options = {
+        "key": "{{ razorpay_key_id }}",
+        "amount": 50000, // amount in paise
+        "currency": "INR",
+        "name": "Trivian Store",
+        "description": "Test Transaction",
+        "handler": function (response) {
+            alert("Payment Successful!");
+            console.log(response);
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    rzp1.open();
+</script>

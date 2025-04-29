@@ -1,10 +1,18 @@
 from django.http import  JsonResponse
 from django.shortcuts import redirect, render
+from django.conf import settings
+from django.views.decorators.csrf import csrf_exempt
 from shop.form import CustomUserForm
 from . models import *
 from django.contrib import messages
 from django.contrib.auth import authenticate,login,logout
 import json
+from django.shortcuts import render, redirect
+from django.contrib import messages
+import razorpay
+from django.shortcuts import render
+
+
 
 
 def home(request):
@@ -22,7 +30,6 @@ def remove_fav(request,fid):
   item=Favourite.objects.get(id=fid)
   item.delete()
   return redirect("/favviewpage")
-
 
 
 
@@ -139,3 +146,13 @@ def product_details(request,cname,pname):
     else:
       messages.error(request,"No Such Catagory Found")
       return redirect('collections')
+    
+
+
+def payment_success_view(request):
+    return render(request, 'payment_success.html')
+
+def checkout_view(request):
+    return render(request, 'checkout.html')
+
+
