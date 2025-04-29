@@ -33,10 +33,6 @@ Trivian is a fully functional e-commerce platform built using **Django**. It sup
 
 trivian/ ├── prijith_project/ # Django project settings ├── shop/ # Core app for e-commerce logic │ ├── models.py # Models for product, cart, etc. │ ├── views.py # Views and payment logic │ ├── templates/ # HTML templates │ ├── static/ # Static assets ├── static/ # Global static files ├── manage.py # Django project runner
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Setup Instructions
